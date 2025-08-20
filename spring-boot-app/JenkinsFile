@@ -47,7 +47,7 @@ pipeline {
     }
     stage('Update Deployment File') {
         environment {
-            GIT_REPO_NAME = "argocd"
+            GIT_REPO_NAME = "argocddeployment"
             GIT_USER_NAME = "RRitsolution"
         }
         steps {
