@@ -1,4 +1,8 @@
 pipeline {
+
+tools {
+    jdk 'jdk11'
+}
   agent {
     docker {
       image 'abhishekf5/maven-abhishek-docker-agent:v1'
