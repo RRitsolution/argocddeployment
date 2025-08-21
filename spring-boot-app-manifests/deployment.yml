@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: spring-boot-app
-        image: nirmaldocker1987/argocdproject:replaceImageTag
+        image: nirmaldocker1987/argocdproject:17
         ports:
         - containerPort: 8080
